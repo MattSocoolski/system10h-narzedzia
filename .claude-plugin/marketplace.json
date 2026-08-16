@@ -1,0 +1,25 @@
+{
+  "name": "system10h",
+  "owner": {
+    "name": "Mateusz Sokólski",
+    "url": "https://system10h.com"
+  },
+  "description": "Katalog narzędzi System 10H dla klientów z wdrożonym Bliźniakiem.",
+  "plugins": [
+    {
+      "name": "system10h",
+      "description": "Narzędzia System 10H dla klienta z wdrożonym Bliźniakiem: audyt integracji technologicznej i materiały wspierające. Skille są w przestrzeni system10h:*.",
+      "version": "0.2.1",
+      "source": {
+        "source": "archive",
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.2.1.zip",
+        "sha256": "b588ec794a9a0a8084a2b0170eb856e2c6622abb96544005a768e123842c6441"
+      },
+      "metadata": {
+        "sumaTresci": "3b2ad2f4cde90bb6edc853a42444d11be085f15902a37644d5d8ce2a0ff22b17",
+        "plikow": 9,
+        "zbudowano_o": "2026-08-16T21:55:26.256Z"
+      }
+    }
+  ]
+}
