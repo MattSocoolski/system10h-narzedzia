@@ -27,6 +27,11 @@ Nowe wersje ogłaszamy mailem. Po otrzymaniu wiadomości wpisz:
 ## Co jest w środku
 
 - **`audit-skill`** — audyt integracji technologicznej Twojego środowiska Bliźniaka. Skill jest bezpłatny; produktem System 10H jest analiza wyników, raport i rozmowa o wnioskach — [szczegóły oferty](https://system10h.com).
+- **`autopilot-instalacja`** — przeprowadza przez pierwsze uruchomienie Email Autopilota na Twojej skrzynce: krok po kroku, z zatrzymaniem tam, gdzie hasło wpisujesz wyłącznie Ty, i z zapamiętaniem miejsca, w którym skończyliście.
+- **`autopilot`** — dla skrzynki już podłączonej: dokłada kolejną (na przykład Gmail obok iCloud) i odpowiada na pytanie „czemu nie ma szkiców".
+- **`pamiec-po-znaczeniu`** — o wyszukiwaniu w Twoich plikach po znaczeniu, na modelu liczącym na Twoim komputerze. Zaczyna od pytania, czy w ogóle tego potrzebujesz.
+
+> Dwie procedury Autopilota opisują **podłączenie** poczty i działają u Ciebie. Sam Autopilot, pisząc szkic odpowiedzi, korzysta z modelu w chmurze na Twoim koncie — tak samo jak wtedy, gdy sam wklejasz asystentowi tekst do poprawienia.
 
 ## Zasady
 

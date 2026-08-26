@@ -10,6 +10,57 @@
 
 ---
 
+## 🆕 wersja 0.2.5 (26.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Dochodzi jedna procedura, i to taka, którą do dziś
+mieliśmy tylko u siebie.
+
+**`autopilot-instalacja`** — przeprowadza przez uruchomienie Autopilota na skrzynce od początku do
+końca: trzynaście kroków z zatrzymaniem w miejscu, gdzie hasło wpisuje **wyłącznie właściciel
+skrzynki**, i z odmową pójścia dalej, jeśli sprawdzenie serwera wypadnie źle. Zapamiętuje, gdzie
+skończyliście — więc przerwana instalacja wznawia się w tym samym miejscu, także po zamknięciu
+komputera.
+
+Czym się różni od `autopilot`: tamta odpowiada na pytanie **„czemu nie ma szkiców"** przy
+skrzynce już podłączonej, ta prowadzi przez **pierwsze uruchomienie**. Jeśli robisz to sam,
+zacznij od `autopilot-instalacja`, a `autopilot` zostaw sobie na później.
+
+Do tej pory ta procedura jechała wyłącznie w paczce instalacyjnej i nie było jej w katalogu —
+świadomie, bo dopóki nikt nie przeszedł jej z żywym człowiekiem, wystawianie jej byłoby
+rozdawaniem instrukcji, której nikt nie sprawdził w praktyce. Pierwsze przejście z klientem
+odbyło się **19 sierpnia** i zatrzymało się na danych serwera pocztowego po stronie dostawcy, a
+nie na samej procedurze. Dlatego wchodzi teraz.
+
+---
+
+## 🆕 wersja 0.2.4 (26.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Dochodzą dwie nowe procedury — wpisujesz ich nazwę,
+gdy ich potrzebujesz, i same się nie odzywają.
+
+**`autopilot`** — prowadzi Cię przez podłączenie poczty do Autopilota i przez diagnozę „czemu nie
+ma szkiców". Pilnuje trzech rzeczy, na których to zwykle pęka: żeby hasło nigdy nie przeszło przez
+asystenta, żeby czytanie poczty nie oznaczało jej jako przeczytanej, i żeby powtórzenie kroku nie
+dopisało tej samej skrzynki dwa razy. **Dwie skrzynki w jednym programie pocztowym** (na przykład
+iCloud i Gmail obok siebie) to dla Systemu dwie osobne skrzynki — procedura przeprowadzi Cię przez
+obie. Sam program pocztowy nie ma tu nic do rzeczy: System łączy się z serwerem obok niego, więc
+szkic pojawia się u Ciebie sam.
+
+**`pamiec-po-znaczeniu`** — o wyszukiwaniu w Twoich plikach po znaczeniu, na modelu działającym na
+Twoim komputerze. Zaczyna się od pytania, **czy w ogóle tego potrzebujesz**: asystent czyta Twoje
+pliki tak czy owak, a indeks zaczyna coś dawać dopiero przy dużej ilości materiału. Jeśli
+procedura skończy się na „na razie niepotrzebne", to jest jej prawidłowy wynik, nie porażka.
+
+Jedno zdanie, żeby nie powstało nieporozumienie z poprzedniej wersji: model wyszukiwania liczy
+**u Ciebie** i indeksowana treść nie wychodzi na zewnątrz. **To dotyczy wyszukiwania, nie całego
+Systemu** — Autopilot, pisząc szkic odpowiedzi, korzysta z modelu w chmurze na Twoim koncie.
+
+Przy okazji dopisaliśmy w instrukcji rzecz, której wcześniej tam nie było: **komendy Systemu
+wymagają Node.js** (zalecana wersja 22 LTS, `https://nodejs.org`). Bez niego żadna z nich nie
+ruszy, a komunikat „command not found" znaczy właśnie to — nie awarię Systemu.
+
+---
+
 ## 🔄 wersja 0.2.3 (25.08.2026)
 
 **Instrukcja narzędzia do audytu obiecywała więcej, niż to narzędzie robi.** W czterech miejscach było
@@ -58,3 +109,23 @@ Pierwsza wersja katalogu instalowanego jednym kliknięciem — zamiast plików w
 
 ---
 
+<!--
+NOTATKA WEWNĘTRZNA (nie dla klienta — usuń przy ewentualnej publikacji jako osobna strona):
+
+Plik założony 24.08.2026 (taśma §B1, ruch (a) itemu DYSTRYBUCJA-SKILLE-PILOT). Powód: klient
+dostawał do tej pory wyłącznie numer wersji, a kanał zwrotny jest świadomie wyłączony — więc
+aktualizacja bez zdania po ludzku jest dla niego zdarzeniem bez treści. Wzorzec z transkryptu
+[44:21]: „Hej, Łukasz właśnie dodał tutaj nową wersję, są dane dla Etiopii i dla Malty (…) czy
+chcesz zaktualizować skilla?".
+
+⚠️ TREŚĆ WPISU 0.2.2 JEST DRAFTEM @cto — idzie do klienta, więc przed wysłaniem/publikacją
+przechodzi przez @ghost (CLAUDE.md §ZASADY JAKOŚCI OUTPUTÓW: @ghost = gatekeeper komunikacji).
+Znacznik [DO PRZEREDAGOWANIA PRZEZ @GHOST] zdejmuje @ghost, nie autor draftu.
+
+Wpisy 0.2.1 i 0.2.0 są CELOWO ubogie: odtworzone z tytułów commitów (b20b2699, 4113f050), bo
+notatek wtedy nie prowadziliśmy. Nie dopisuję im treści, której nie zmierzyłem — pusty wpis jest
+uczciwszy niż zmyślony (ZASADY ANTYHALUCYNACJI). Od 0.2.2 wpis powstaje RAZEM z wersją.
+
+Kontrakt: kto buduje nową wersję (`zbuduj-plugin-10h.mjs`), ten dopisuje tu akapit W TYM SAMYM
+ruchu. Evaluator itemu sprawdza, że numer z manifestu występuje w tym pliku.
+-->
