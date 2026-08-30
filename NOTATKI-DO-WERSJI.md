@@ -10,6 +10,25 @@
 
 ---
 
+## 🆕 wersja 0.2.6 (30.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** To wydanie naprawia jedną rzecz, ale taką, która
+zatrzymywała od razu na starcie.
+
+**`autopilot-instalacja` działa teraz także wtedy, gdy procedurę masz z katalogu narzędzi, a swój
+System w osobnym folderze.** Wcześniej w tym układzie kończyła się natychmiast komunikatem, że nie
+znajduje pliku — pliku, który u Ciebie **był**, tylko procedura szukała go w złym miejscu. Szukała
+„o tyle a tyle katalogów w górę", a przy instalacji z katalogu narzędzi te dwa foldery nie mają ze
+sobą nic wspólnego. Teraz procedura pyta wprost o katalog Twojego Systemu i pracuje na nim.
+
+**Co z tego masz:** jeśli zatrzymała Cię wcześniej ta wiadomość, po aktualizacji przejdzie dalej.
+Jeśli nie zatrzymała — nie zauważysz różnicy i nic nie musisz robić inaczej.
+
+**Gdyby znów czegoś nie znalazła**, komunikat mówi teraz po ludzku, czego szuka i gdzie zaglądał,
+zamiast wypisywać surowe ścieżki.
+
+---
+
 ## 🆕 wersja 0.2.5 (26.08.2026)
 
 **Nic nie znika i nic nie przestaje działać.** Dochodzi jedna procedura, i to taka, którą do dziś
@@ -121,6 +140,12 @@ chcesz zaktualizować skilla?".
 ⚠️ TREŚĆ WPISU 0.2.2 JEST DRAFTEM @cto — idzie do klienta, więc przed wysłaniem/publikacją
 przechodzi przez @ghost (CLAUDE.md §ZASADY JAKOŚCI OUTPUTÓW: @ghost = gatekeeper komunikacji).
 Znacznik [DO PRZEREDAGOWANIA PRZEZ @GHOST] zdejmuje @ghost, nie autor draftu.
+
+⚠️ TO SAMO DOTYCZY WPISU 0.2.6 (30.08.2026): treść jest draftem @cto. Została
+opublikowana w katalogu 30.08 na wyraźne polecenie usera („trzeba zaktualizować wtyczkę”),
+PRZED przejściem przez @ghost — widoczny znacznik zdjęty przy publikacji, żeby klient nie
+czytał naszej kuchni. Jeśli @ghost zmieni brzmienie, poprawka to jeden commit do katalogu:
+plik jest dokumentem do wglądu, nie wysyłką, więc korekta nie „dogania” nikogo.
 
 Wpisy 0.2.1 i 0.2.0 są CELOWO ubogie: odtworzone z tytułów commitów (b20b2699, 4113f050), bo
 notatek wtedy nie prowadziliśmy. Nie dopisuję im treści, której nie zmierzyłem — pusty wpis jest
