@@ -10,6 +10,21 @@
 
 ---
 
+## 🆕 wersja 0.2.7 (30.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Domknięcie tego, co naprawiła 0.2.6 — w dwóch
+miejscach, do których wtedy nie zajrzeliśmy.
+
+**`autopilot-instalacja`: opis kroku 2.7 podawał gotową komendę ze ścieżką, która istnieje tylko
+przy instalacji z paczki.** Jeśli masz procedurę z katalogu narzędzi, ta jedna komenda
+zatrzymałaby Cię kilka kroków po tym miejscu, które naprawiliśmy w 0.2.6. Teraz opis nie podaje
+żadnej ścieżki — odsyła do komendy sprawdzającej z samej procedury, a katalog podstawia Claude Code.
+
+**Co z tego masz:** instalacja przechodzi do końca także wtedy, gdy procedurę masz z katalogu.
+Jeśli robisz ją z paczki, nic się dla Ciebie nie zmienia.
+
+---
+
 ## 🆕 wersja 0.2.6 (30.08.2026)
 
 **Nic nie znika i nic nie przestaje działać.** To wydanie naprawia jedną rzecz, ale taką, która
@@ -146,6 +161,10 @@ opublikowana w katalogu 30.08 na wyraźne polecenie usera („trzeba zaktualizow
 PRZED przejściem przez @ghost — widoczny znacznik zdjęty przy publikacji, żeby klient nie
 czytał naszej kuchni. Jeśli @ghost zmieni brzmienie, poprawka to jeden commit do katalogu:
 plik jest dokumentem do wglądu, nie wysyłką, więc korekta nie „dogania” nikogo.
+
+⚠️ TO SAMO DOTYCZY WPISU 0.2.7 (30.08.2026, kilka godzin po 0.2.6): draft @cto, opublikowany
+na tę samą zgodę usera — 0.2.7 domyka klasę, którą 0.2.6 zostawiła w połowie, więc jest
+dokończeniem tamtej decyzji, nie nową. Widoczny znacznik zdjęty przy publikacji.
 
 Wpisy 0.2.1 i 0.2.0 są CELOWO ubogie: odtworzone z tytułów commitów (b20b2699, 4113f050), bo
 notatek wtedy nie prowadziliśmy. Nie dopisuję im treści, której nie zmierzyłem — pusty wpis jest
