@@ -9,16 +9,16 @@
     {
       "name": "system10h",
       "description": "Narzędzia System 10H dla klienta z wdrożonym Bliźniakiem: audyt integracji technologicznej i materiały wspierające. Skille są w przestrzeni system10h:*.",
-      "version": "0.2.7",
+      "version": "0.2.8",
       "source": {
         "source": "archive",
-        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.2.7.zip",
-        "sha256": "18aa08c0c395c2a5f392bfa49a7820f6908b306b04c4cb3975971d23d41e77f0"
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.2.8.zip",
+        "sha256": "d117f33b41eba63f36486d5f8256259e22c08eae727cc4b25c515522d29f781a"
       },
       "metadata": {
-        "sumaTresci": "74932d30b5f2ae98dda89e2a49ea6ab93031b4389d03e9d6960c21e69dc53523",
-        "plikow": 16,
-        "zbudowano_o": "2026-08-30T13:46:05.479Z"
+        "sumaTresci": "66ac28733f9c94bf00a988fa85e8d7164760da44d5221cf6104b675375532087",
+        "plikow": 19,
+        "zbudowano_o": "2026-08-31T18:50:58.542Z"
       }
     }
   ]

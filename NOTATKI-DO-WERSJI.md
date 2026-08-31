@@ -10,36 +10,55 @@
 
 ---
 
+## 🆕 wersja 0.2.8 (31.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Ta aktualizacja naprawia błąd, który na świeżo
+podłączonej skrzynce zatrzymywał Autopilota przy każdym nowym mailu.
+
+**Wpis skrzynki tworzony przy instalacji nie zawierał ustawienia, którego Autopilot bezwzględnie
+wymagał** — i zamiast powiedzieć o tym po ludzku, Autopilot wywracał się z technicznym komunikatem
+(„Cannot read properties of undefined"). Teraz skrzynka bez tego ustawienia dostaje bezpieczną
+domyślną pracę: Autopilot **tylko sygnalizuje** nowe wiadomości (odpowiedzi na Twoje maile
+i nadawców z Twoich kart kontaktów), a **żadnych szkiców nie tworzy sam**, dopóki świadomie tego
+nie włączysz. Opis pól wpisu skrzynki mówi też teraz wprost, co wpisać w miejscu katalogu kart
+kontaktów, gdy kart jeszcze nie masz.
+
+**Co z tego masz:** świeża instalacja na nowej skrzynce działa od pierwszego maila — ostrożnie,
+bez samodzielnego pisania, dopóki sam nie zdecydujesz inaczej.
+
+---
+
 ## 🆕 wersja 0.2.7 (30.08.2026)
 
-**Nic nie znika i nic nie przestaje działać.** Domknięcie tego, co naprawiła 0.2.6 — w dwóch
-miejscach, do których wtedy nie zajrzeliśmy.
+**Nic nie znika i nic nie przestaje działać.** To domknięcie poprzedniej aktualizacji: w tym samym
+miejscu została jeszcze jedna rzecz, do której wtedy nie zajrzeliśmy.
 
-**`autopilot-instalacja`: opis kroku 2.7 podawał gotową komendę ze ścieżką, która istnieje tylko
-przy instalacji z paczki.** Jeśli masz procedurę z katalogu narzędzi, ta jedna komenda
-zatrzymałaby Cię kilka kroków po tym miejscu, które naprawiliśmy w 0.2.6. Teraz opis nie podaje
-żadnej ścieżki — odsyła do komendy sprawdzającej z samej procedury, a katalog podstawia Claude Code.
+**`autopilot-instalacja`: w opisie jednego z pierwszych kroków była wpisana gotowa komenda ze
+ścieżką, która istnieje tylko przy instalacji z paczki.** Jeśli procedurę masz z katalogu narzędzi,
+ta jedna komenda zatrzymałaby Cię parę kroków dalej niż to, co poprawiliśmy poprzednio. Teraz opis
+nie podaje żadnej ścieżki: odsyła do komendy sprawdzającej z samej procedury, a właściwe miejsce
+podstawia już Claude Code.
 
-**Co z tego masz:** instalacja przechodzi do końca także wtedy, gdy procedurę masz z katalogu.
-Jeśli robisz ją z paczki, nic się dla Ciebie nie zmienia.
+**Co z tego masz:** instalacja przechodzi do końca także wtedy, gdy procedurę masz z katalogu. Jeśli
+robisz ją z paczki, u Ciebie nic się nie zmienia.
 
 ---
 
 ## 🆕 wersja 0.2.6 (30.08.2026)
 
-**Nic nie znika i nic nie przestaje działać.** To wydanie naprawia jedną rzecz, ale taką, która
+**Nic nie znika i nic nie przestaje działać.** Ta aktualizacja naprawia jedną rzecz, ale taką, która
 zatrzymywała od razu na starcie.
 
 **`autopilot-instalacja` działa teraz także wtedy, gdy procedurę masz z katalogu narzędzi, a swój
-System w osobnym folderze.** Wcześniej w tym układzie kończyła się natychmiast komunikatem, że nie
-znajduje pliku — pliku, który u Ciebie **był**, tylko procedura szukała go w złym miejscu. Szukała
-„o tyle a tyle katalogów w górę", a przy instalacji z katalogu narzędzi te dwa foldery nie mają ze
-sobą nic wspólnego. Teraz procedura pyta wprost o katalog Twojego Systemu i pracuje na nim.
+System w osobnym folderze.** Wcześniej w tym układzie kończyła się od razu komunikatem, że nie
+znajduje pliku. Plik u Ciebie **był**, tylko procedura szukała go w złym miejscu: liczyła katalogi
+w górę od siebie, a przy instalacji z katalogu narzędzi te dwa foldery nie mają ze sobą nic
+wspólnego. Teraz procedura pyta wprost o folder Twojego Systemu i pracuje na nim.
 
-**Co z tego masz:** jeśli zatrzymała Cię wcześniej ta wiadomość, po aktualizacji przejdzie dalej.
-Jeśli nie zatrzymała — nie zauważysz różnicy i nic nie musisz robić inaczej.
+**Co z tego masz:** jeśli zatrzymał Cię wcześniej ten komunikat, po aktualizacji pójdzie dalej.
+Jeśli nie zatrzymał, nie zauważysz różnicy i nic nie musisz robić inaczej.
 
-**Gdyby znów czegoś nie znalazła**, komunikat mówi teraz po ludzku, czego szuka i gdzie zaglądał,
+**Gdyby procedura znów czegoś nie znalazła**, powie teraz po ludzku, czego szuka i gdzie zaglądała,
 zamiast wypisywać surowe ścieżki.
 
 ---
@@ -140,36 +159,3 @@ korzystania.
 ## wersja 0.2.0 (09.08.2026)
 
 Pierwsza wersja katalogu instalowanego jednym kliknięciem — zamiast plików wysyłanych mailem.
-
----
-
-<!--
-NOTATKA WEWNĘTRZNA (nie dla klienta — usuń przy ewentualnej publikacji jako osobna strona):
-
-Plik założony 24.08.2026 (taśma §B1, ruch (a) itemu DYSTRYBUCJA-SKILLE-PILOT). Powód: klient
-dostawał do tej pory wyłącznie numer wersji, a kanał zwrotny jest świadomie wyłączony — więc
-aktualizacja bez zdania po ludzku jest dla niego zdarzeniem bez treści. Wzorzec z transkryptu
-[44:21]: „Hej, Łukasz właśnie dodał tutaj nową wersję, są dane dla Etiopii i dla Malty (…) czy
-chcesz zaktualizować skilla?".
-
-⚠️ TREŚĆ WPISU 0.2.2 JEST DRAFTEM @cto — idzie do klienta, więc przed wysłaniem/publikacją
-przechodzi przez @ghost (CLAUDE.md §ZASADY JAKOŚCI OUTPUTÓW: @ghost = gatekeeper komunikacji).
-Znacznik [DO PRZEREDAGOWANIA PRZEZ @GHOST] zdejmuje @ghost, nie autor draftu.
-
-⚠️ TO SAMO DOTYCZY WPISU 0.2.6 (30.08.2026): treść jest draftem @cto. Została
-opublikowana w katalogu 30.08 na wyraźne polecenie usera („trzeba zaktualizować wtyczkę”),
-PRZED przejściem przez @ghost — widoczny znacznik zdjęty przy publikacji, żeby klient nie
-czytał naszej kuchni. Jeśli @ghost zmieni brzmienie, poprawka to jeden commit do katalogu:
-plik jest dokumentem do wglądu, nie wysyłką, więc korekta nie „dogania” nikogo.
-
-⚠️ TO SAMO DOTYCZY WPISU 0.2.7 (30.08.2026, kilka godzin po 0.2.6): draft @cto, opublikowany
-na tę samą zgodę usera — 0.2.7 domyka klasę, którą 0.2.6 zostawiła w połowie, więc jest
-dokończeniem tamtej decyzji, nie nową. Widoczny znacznik zdjęty przy publikacji.
-
-Wpisy 0.2.1 i 0.2.0 są CELOWO ubogie: odtworzone z tytułów commitów (b20b2699, 4113f050), bo
-notatek wtedy nie prowadziliśmy. Nie dopisuję im treści, której nie zmierzyłem — pusty wpis jest
-uczciwszy niż zmyślony (ZASADY ANTYHALUCYNACJI). Od 0.2.2 wpis powstaje RAZEM z wersją.
-
-Kontrakt: kto buduje nową wersję (`zbuduj-plugin-10h.mjs`), ten dopisuje tu akapit W TYM SAMYM
-ruchu. Evaluator itemu sprawdza, że numer z manifestu występuje w tym pliku.
--->
