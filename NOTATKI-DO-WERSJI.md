@@ -10,6 +10,28 @@
 
 ---
 
+## 🆕 wersja 0.3.0 (31.08.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Dochodzi jedna nowa procedura — i mówię o niej
+od razu wprost, bo jako jedyna w tym katalogu pracuje w interesie nas obu, nie tylko Twoim.
+
+**Skaner Okazji** przegląda Twoje środowisko i składa krótki raport: gdzie Twoja sieć i Twój
+biznes spotykają się z tym, co robię ja — tak, żeby zarobiły obie strony. Wynik to gotowy tekst
+maila do mnie. **Nic sam nie wysyła i nic u Ciebie nie zapisuje**: ma dostęp wyłącznie do czytania
+plików, więc nie jest w stanie zrobić nic więcej, nawet gdyby ktoś go o to poprosił. Wysyłasz Ty
+albo nie wysyłasz wcale. Jeśli nie zobaczy nic sensownego, powie to wprost — pusty wynik jest tu
+poprawną odpowiedzią, nie porażką.
+
+Procedura **nie zgłasza się sama**; odpala się, kiedy o nią poprosisz. Jedyny wyjątek: gdy właśnie
+zobaczyłeś podsumowanie tego, co Twój system dla Ciebie zrobił, asystent może **raz** wspomnieć,
+że taka rzecz istnieje. Powiesz „nie" — temat jest zamknięty i nie wraca.
+
+**Co z tego masz:** jeśli kogoś ze swojej sieci widzisz w tym, czym się zajmuję, masz gotowy
+sposób, żeby to opisać w pięć minut zamiast układać maila od zera. Zasady rozliczenia ustalamy
+indywidualnie, w rozmowie — procedura żadnych kwot ani procentów nie podaje i nie wylicza.
+
+---
+
 ## 🆕 wersja 0.2.8 (31.08.2026)
 
 **Nic nie znika i nic nie przestaje działać.** Ta aktualizacja naprawia błąd, który na świeżo
