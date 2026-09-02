@@ -10,6 +10,31 @@
 
 ---
 
+## 🆕 wersja 0.3.1 (02.09.2026)
+
+**Nic nie znika i nic nie przestaje działać.** Dochodzi procedura, która rozwiązuje problem
+istniejący od pierwszego dnia: **jak dostarczyć Ci nowszą wersję plików Twojego Bliźniaka,
+nie kasując tego, co sam do nich dopisałeś.**
+
+**„Wgraj aktualizację"** bierze pliki, które przyjechały razem z tą aktualizacją, i kładzie je
+u Ciebie — ale najpierw **pokazuje plan i czeka na Twoje „tak"**. Każdy nadpisywany plik dostaje
+kopię w `backup/`, a procedura wypisuje jej nazwę, żeby odwrót był realny, a nie teoretyczny.
+Plików, które są **Twoje** — profil firmy, stan, braki, propozycje stylu, katalog szkoleń,
+karty kontaktów — **nie dotyka w ogóle**. Jeśli aktualizacja próbowałaby któryś z nich ruszyć,
+zatrzymuje się i mówi o tym wprost, zamiast zapisać cokolwiek.
+
+W tej wersji jadą **dwa pliki ról: RECON i CSO**. Mówią teraz po polsku (wcześniej część treści
+była po angielsku) i mają naprawiony sposób oceniania leadów — wcześniej ten sam kontakt potrafił
+dostać dwa różne priorytety zależnie od tego, którą ścieżką się do niego doszło.
+
+**Co z tego masz:** jeśli Twoje pliki są już aktualne, procedura powie „nic do wgrania" — i to
+jest poprawna odpowiedź, nie awaria. Jeśli masz starszą wersję, dostajesz nowszą **jedną komendą,
+z kopią zapasową i bez ryzyka, że zniknie Twoja własna praca**. Nowa treść plików ról wchodzi
+w życie przy następnym uruchomieniu asystenta — rozmowa, w której wgrywasz aktualizację, czyta
+jeszcze wersję sprzed zmiany.
+
+---
+
 ## 🆕 wersja 0.3.0 (31.08.2026)
 
 **Nic nie znika i nic nie przestaje działać.** Dochodzi jedna nowa procedura — i mówię o niej
