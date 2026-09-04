@@ -10,6 +10,21 @@
 
 ---
 
+## 🆕 wersja 0.3.2 (04.09.2026)
+
+**Nic nie znika, nic nie przestaje działać i nie musisz nic robić.** To porządki po naszej stronie.
+
+W jednym z opisów technicznych zostało **imię innego naszego klienta** — wstawione jako przykład,
+kiedy opisywaliśmy sobie, że dana procedura przeszła próbę u żywej firmy. Nikomu to niczego nie
+psuło, ale w Twoich plikach nie ma czego szukać cudze nazwisko, więc je stamtąd zdjęliśmy.
+Przy okazji zrobiliśmy porządek w katalogu: **zostaje wyłącznie najnowsza wersja**, starsze
+archiwa zniknęły. Jeśli masz zainstalowaną którąkolwiek wcześniejszą — działa dalej, nic Ci
+nie zniknie; po prostu następna aktualizacja pobierze Ci już tę.
+
+**Co z tego masz:** nic nowego do nauczenia się. Jedna rzecz mniej, której nie powinno tam być.
+
+---
+
 ## 🆕 wersja 0.3.1 (02.09.2026)
 
 **Nic nie znika i nic nie przestaje działać.** Dochodzi procedura, która rozwiązuje problem
