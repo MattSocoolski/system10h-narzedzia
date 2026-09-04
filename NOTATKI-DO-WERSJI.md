@@ -10,6 +10,29 @@
 
 ---
 
+## 🆕 wersja 0.3.3 (04.09.2026)
+
+**Zmienia się jedna rzecz w audycie i warto o niej wiedzieć: nazwiska Twoich klientów nie wchodzą
+już do plików, które audyt wytwarza.** Nic nie znika, nic nie przestaje działać, nie musisz nic
+robić.
+
+Audyt czyta pliki Twojego Bliźniaka — a w nich żyją ludzie i sprawy: kto dzwonił, czyja polisa,
+która windykacja. Do tej pory zamiana tych nazwisk na opisy była **opcją**, którą trzeba było
+poprosić. Od tej wersji jest **domyślna**: w plikach wyniku stoi „obsługa wznowień", „klient
+korporacyjny", „księgowa" — zamiast tego, kim ta osoba jest. Twoje własne imię i nazwa Twojej
+firmy zostają, bo to Twoje dane; cudze nie, bo nie są Twoje do oddania.
+
+Na koniec audyt sam przeszukuje wytworzone pliki pod kątem adresów, telefonów, numerów spraw
+i zwrotów typu „pani Kowalska" — i pokazuje Ci, co znalazł, zanim cokolwiek wyślesz.
+**Jedno zastrzeżenie, żebyś nie polegał na tym bardziej, niż wolno:** samo imię bez tytułu
+(„Marek mówił, że…") maszyna przeoczy. Dlatego audyt na koniec czyta te pliki jeszcze raz sam
+i prosi też Ciebie o rzut oka. To Ty je wysyłasz — i nadal widzisz wszystko, zanim to zrobisz.
+
+**Co z tego masz:** możesz zrobić audyt bez zastanawiania się, czy w plikach nie wyjedzie ktoś,
+kto nie jest stroną tej rozmowy.
+
+---
+
 ## 🆕 wersja 0.3.2 (04.09.2026)
 
 **Nic nie znika, nic nie przestaje działać i nie musisz nic robić.** To porządki po naszej stronie.
