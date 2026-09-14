@@ -8,33 +8,48 @@
   "plugins": [
     {
       "name": "system10h",
-      "description": "Narzędzia System 10H dla klienta z wdrożonym Bliźniakiem: audyt integracji technologicznej i materiały wspierające. Skille są w przestrzeni system10h:*.",
-      "version": "0.4.0",
+      "description": "Narzędzia bieżące dla klienta z wdrożonym Bliźniakiem: co nowego, skaner okazji, wgrywanie aktualizacji. Skille są w przestrzeni system10h:*. Audyt ma osobną wtyczkę: system10h-audyt.",
+      "version": "0.5.0",
       "source": {
         "source": "archive",
-        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.4.0.zip",
-        "sha256": "8d19cea745c53b071e506f1e1d2f5b47629712ce1062b736dc84e7657c7fd06f"
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.5.0.zip",
+        "sha256": "4c62eed175c0c35bee9b5be7a4f45620edee3329b321dc58c33bdb649a66d6cc"
       },
       "metadata": {
-        "sumaTresci": "528340fec7a5929140c6dc470a88436ff690f989371bd6ba0d107b862c592ff6",
-        "plikow": 17,
-        "zbudowano_o": "2026-09-14T15:47:01.393Z",
+        "sumaTresci": "8c9c181d84d673ca6acce345de9b0bd97c51fd3c5d8e0d30b31fdf4d2acb1b4d",
+        "plikow": 9,
+        "zbudowano_o": "2026-09-14T15:55:15.253Z",
         "skille": [
-          "audit-skill",
           "co-nowego",
           "skaner-okazji",
           "wgraj-aktualizacje"
         ],
         "wycofane": {
-          "z_wersji": "0.3.3",
+          "z_wersji": "0.4.0",
           "skille": [
-            "autopilot",
-            "autopilot-instalacja",
-            "pamiec-po-znaczeniu"
+            "audit-skill"
           ],
-          "powod": "autopilot i autopilot-instalacja to zawartosc platnego dodatku Email Autopilot, ktora kanal darmowy rozdawal wszystkim; pamiec-po-znaczeniu wychodzi z ceny pudelka decyzja wlasciciela 14.09 (FAZA 0 - zatrzymac wyciek)",
+          "powod": "audyt wyniesiony do wlasnej wtyczki system10h-audyt (FAZA 1): magnes jest dla obcych, a ta wtyczka wozi hydraulike dla wdrozonych, w tym narzedzie piszace do plikow Blizniaka",
           "data": "2026-09-14"
         }
+      }
+    },
+    {
+      "name": "system10h-audyt",
+      "description": "Audyt środowiska pracy z AI: skanuje Twoje konfiguracje, asystentów i integracje, a wynik zostaje na Twoim dysku — wysyłasz go Ty. Dla każdego, nie tylko dla klientów System 10H.",
+      "version": "0.1.0",
+      "source": {
+        "source": "archive",
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-audyt-0.1.0.zip",
+        "sha256": "8eb2fe0205372274c49d09431f0c395292d3e44a75f719b94ea198225055fc7f"
+      },
+      "metadata": {
+        "sumaTresci": "3f10acad900a0f111ef82c7c9c72bd1823b905ec6499dfb4d07a866df1965edb",
+        "plikow": 9,
+        "zbudowano_o": "2026-09-14T15:55:15.867Z",
+        "skille": [
+          "audit-skill"
+        ]
       }
     }
   ]

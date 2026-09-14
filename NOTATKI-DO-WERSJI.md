@@ -10,6 +10,31 @@
 
 ---
 
+## 🆕 wersja 0.5.0 (14.09.2026)
+
+**Ta aktualizacja zabiera i przenosi, więc mówimy o tym pierwszym zdaniem: audyt znika
+z dotychczasowej pozycji w katalogu narzędzi i dostaje własną. Jeśli z audytu korzystasz, wpisz
+u siebie jedną komendę:**
+
+`/plugin install system10h-audyt@system10h`
+
+Powód: audyt jest dla każdego, także dla kogoś, kto nigdy niczego u nas nie kupił. Reszta narzędzi
+jest dla osób z wdrożonym Bliźniakiem, a jedno z nich zapisuje pliki na dysku właściciela. Nie ma
+powodu, żeby ktoś, kto chce tylko przejrzeć swoje środowisko, dostawał narzędzie wpisujące coś
+u siebie. Rozdzieliliśmy to.
+
+Dotychczasowa pozycja zostaje przy trzech narzędziach: „co nowego", skaner okazji i wgrywanie
+aktualizacji — nic z nich nie znika i nic nie zmienia zachowania. Sam audyt jest ten sam: te same
+pytania, ten sam wynik, te same pliki, ta sama droga wysyłki mailem.
+
+Wstecz nie odbieramy niczego. To, co masz u siebie na dysku, zostaje do czasu, aż sam zaktualizujesz
+katalog, a automatyczna aktualizacja jest domyślnie wyłączona.
+
+**Co z tego masz:** jedna komenda i audyt zostaje u Ciebie taki sam, a katalog narzędzi przestaje
+mieszać rzeczy dla dwóch różnych osób.
+
+---
+
 ## 🆕 wersja 0.4.0 (14.09.2026)
 
 **Ta aktualizacja zabiera, więc piszemy o tym w pierwszym zdaniu: z katalogu narzędzi znikają trzy
