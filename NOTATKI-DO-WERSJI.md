@@ -10,6 +10,30 @@
 
 ---
 
+## 🆕 wersja 0.4.0 (14.09.2026)
+
+**Ta aktualizacja zabiera, więc piszemy o tym w pierwszym zdaniu: z katalogu narzędzi znikają trzy
+pozycje — komenda `/autopilot`, komenda `/autopilot-instalacja` i pamięć po znaczeniu.**
+
+`/autopilot` i `/autopilot-instalacja` to części płatnego dodatku Email Autopilot. W darmowym
+katalogu stały przez naszą pomyłkę i trafiały do każdego, kto ten katalog sobie dodał. Kto
+Autopilota kupił, ma go w swojej paczce wdrożeniowej i nic mu nie znika. Kto nie kupił, temu ta
+komenda po aktualizacji zniknie z listy.
+
+Pamięć po znaczeniu staje się osobnym modułem do dokupienia. Tu jedna rzecz jest ważna: ona wchodzi
+także do paczki wdrożeniowej każdego klienta. Jeśli masz u siebie wdrożenie, z paczki nie znika Ci
+nic, znika tylko wpis w katalogu narzędzi.
+
+Wstecz nie odbieramy niczego. To, co masz już u siebie na dysku, zostaje do czasu, aż katalog
+zostanie zaktualizowany, a automatyczna aktualizacja katalogu jest domyślnie wyłączona. Poza tym nic
+się nie zmienia: audyt, „co nowego", skaner okazji i wgrywanie aktualizacji zostają takie, jakie
+były.
+
+**Co z tego masz:** katalog narzędzi pokazuje to, co faktycznie jest Twoje, a jeśli którejś z tych
+komend po aktualizacji zabraknie, to nie awaria, tylko nasze porządki.
+
+---
+
 ## 🆕 wersja 0.3.3 (04.09.2026)
 
 **Zmienia się jedna rzecz w audycie i warto o niej wiedzieć: nazwiska Twoich klientów nie wchodzą

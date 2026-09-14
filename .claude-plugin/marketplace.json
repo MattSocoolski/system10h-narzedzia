@@ -9,25 +9,32 @@
     {
       "name": "system10h",
       "description": "Narzędzia System 10H dla klienta z wdrożonym Bliźniakiem: audyt integracji technologicznej i materiały wspierające. Skille są w przestrzeni system10h:*.",
-      "version": "0.3.3",
+      "version": "0.4.0",
       "source": {
         "source": "archive",
-        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.3.3.zip",
-        "sha256": "0cb963916f49d43cd785089a508867f890bd506a3670d007c57041024e339cb5"
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-0.4.0.zip",
+        "sha256": "8d19cea745c53b071e506f1e1d2f5b47629712ce1062b736dc84e7657c7fd06f"
       },
       "metadata": {
-        "sumaTresci": "459bf6b8980adb90980e035fcf888bab70d7dedd5f6c5bcf157c8581994be6ad",
-        "plikow": 24,
-        "zbudowano_o": "2026-09-04T12:38:52.755Z",
+        "sumaTresci": "528340fec7a5929140c6dc470a88436ff690f989371bd6ba0d107b862c592ff6",
+        "plikow": 17,
+        "zbudowano_o": "2026-09-14T15:47:01.393Z",
         "skille": [
           "audit-skill",
-          "autopilot",
-          "autopilot-instalacja",
           "co-nowego",
-          "pamiec-po-znaczeniu",
           "skaner-okazji",
           "wgraj-aktualizacje"
-        ]
+        ],
+        "wycofane": {
+          "z_wersji": "0.3.3",
+          "skille": [
+            "autopilot",
+            "autopilot-instalacja",
+            "pamiec-po-znaczeniu"
+          ],
+          "powod": "autopilot i autopilot-instalacja to zawartosc platnego dodatku Email Autopilot, ktora kanal darmowy rozdawal wszystkim; pamiec-po-znaczeniu wychodzi z ceny pudelka decyzja wlasciciela 14.09 (FAZA 0 - zatrzymac wyciek)",
+          "data": "2026-09-14"
+        }
       }
     }
   ]
