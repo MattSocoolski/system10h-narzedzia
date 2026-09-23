@@ -37,16 +37,16 @@
     {
       "name": "system10h-audyt",
       "description": "Audyt środowiska pracy z AI: skanuje Twoje konfiguracje, asystentów i integracje, a wynik zostaje na Twoim dysku — wysyłasz go Ty. Dla każdego, nie tylko dla klientów System 10H.",
-      "version": "0.1.0",
+      "version": "0.1.1",
       "source": {
         "source": "archive",
-        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-audyt-0.1.0.zip",
-        "sha256": "8eb2fe0205372274c49d09431f0c395292d3e44a75f719b94ea198225055fc7f"
+        "url": "https://raw.githubusercontent.com/MattSocoolski/system10h-narzedzia/main/system10h-audyt-0.1.1.zip",
+        "sha256": "80d9aa6775e73d18bfa990c7e3bf58994cc59d584e80553a2e1feadd476bb522"
       },
       "metadata": {
-        "sumaTresci": "3f10acad900a0f111ef82c7c9c72bd1823b905ec6499dfb4d07a866df1965edb",
-        "plikow": 9,
-        "zbudowano_o": "2026-09-14T15:55:15.867Z",
+        "sumaTresci": "091d9ffab7081f7e67b4648cd265ae041b8604c8278e353bef1adbcdbcc68410",
+        "plikow": 8,
+        "zbudowano_o": "2026-09-23T09:41:00.604Z",
         "skille": [
           "audit-skill"
         ]
