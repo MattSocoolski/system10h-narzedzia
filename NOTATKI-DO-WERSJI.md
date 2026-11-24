@@ -10,6 +10,22 @@
 
 ---
 
+## 🆕 system10h-audyt 0.2.0 (24.11.2026)
+
+**Ta aktualizacja zabiera, więc mówimy o tym pierwszym zdaniem: wtyczka `system10h-audyt` nie prowadzi
+już audytu. Kieruje na stronę system10h.com/audyt/, na której stoi nowa wersja.**
+
+Powód: audyt środowiska pracy działa teraz z jednego tekstu wklejanego asystentowi, także w aplikacji
+Claude, bez instalowania wtyczki. Jest dla firm z zainstalowanym System 10H. Trzymanie dwóch wersji
+kończyłoby się tym, że ktoś uruchomi starą.
+
+Twoje wcześniejsze wyniki zostają na Twoim dysku. Wtyczkę możesz usunąć: `/plugin uninstall system10h-audyt@system10h`.
+
+**Co z tego masz:** zawsze aktualny audyt, wynik od razu u siebie i najwyżej trzy rzeczy do zrobienia
+z gotowym tekstem.
+
+---
+
 ## 🆕 wersja 0.5.0 (14.09.2026)
 
 **Ta aktualizacja zabiera i przenosi, więc mówimy o tym pierwszym zdaniem: audyt znika
